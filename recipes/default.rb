@@ -18,3 +18,7 @@
 #
 
 include_recipe 'nginx'
+
+directory '/something/that/does/not/exist' do
+  action :create
+end
